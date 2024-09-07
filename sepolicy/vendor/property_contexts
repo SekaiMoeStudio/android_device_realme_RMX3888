@@ -1,0 +1,5 @@
+# Camera
+ro.vendor.oplus.camera.frontCamSize           u:object_r:vendor_camera_prop:s0
+ro.vendor.oplus.camera.backCamSize            u:object_r:vendor_camera_prop:s0
+ro.vendor.oplus.camera.isSupportExplorer      u:object_r:vendor_camera_prop:s0
+ro.vendor.oplus.camera.isHasselbladCamera     u:object_r:vendor_camera_prop:s0
