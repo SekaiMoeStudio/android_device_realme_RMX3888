@@ -188,6 +188,8 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     fstab.qcom.vendor_ramdisk \
     init.class_main.sh \
+    init.kernel.post_boot-pineapple.sh \
+    init.kernel.post_boot-pineapple_default_2_3_2_1.sh \
     init.oplus.rc \
     init.qcom.early_boot.sh \
     init.qcom.rc \
