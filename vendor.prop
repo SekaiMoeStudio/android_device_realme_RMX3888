@@ -297,7 +297,6 @@ ro.hardware.keystore_desede=true
 debug.c2.use_dmabufheaps=1
 debug.stagefright.c2inputsurface=-1
 media.stagefright.audio.deep=false
-vendor.media.omx=0
 
 # Netflix
 ro.netflix.bsp_rev=Q8650-37577-1
