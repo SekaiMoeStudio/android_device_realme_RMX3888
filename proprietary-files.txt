@@ -3,7 +3,6 @@
 
 # Current blobs with ELF checks disabled:
 # libar-pal depends on libagmclient, which is a gnu makefile target
-# libcne, libmasc, lowi-server, slim_daemon, qms depend on libwpa_client, which is a gnu makefile target
 # libqc2audio_hwaudiocodec depends on libpalclient, which is a gnu makefile target
 
 # Current blobs with deps disabled:
@@ -1475,12 +1474,12 @@ vendor/etc/vintf/manifest/datafactoryservice-saidl.xml
 vendor/etc/vintf/manifest/mwqem-saidl.xml
 vendor/lib64/libCneAppJni.so
 vendor/lib64/libWlanServiceJni.so
-vendor/lib64/libcne.so;DISABLE_CHECKELF
+vendor/lib64/libcne.so
 vendor/lib64/libcneapiclient.so
 vendor/lib64/libcneoplookup.so
 vendor/lib64/libcneqmiutils.so
 vendor/lib64/libjnihelper.so
-vendor/lib64/libmasc.so;DISABLE_CHECKELF
+vendor/lib64/libmasc.so
 vendor/lib64/libshsc.so
 vendor/lib64/libwms.so
 vendor/lib64/libwqe.so
@@ -1930,7 +1929,7 @@ vendor/bin/edgnss-daemon
 vendor/bin/engine-service
 vendor/bin/hw/android.hardware.gnss-aidl-service-qti
 vendor/bin/loc_launcher
-vendor/bin/lowi-server;DISABLE_CHECKELF
+vendor/bin/lowi-server
 vendor/bin/mlid
 vendor/bin/qsap_location
 vendor/bin/slim_daemon
@@ -2595,7 +2594,7 @@ system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/bin/hw/qcrilNrd
 vendor/bin/ks
 vendor/bin/nicmd
-vendor/bin/qms;DISABLE_CHECKELF
+vendor/bin/qms
 vendor/bin/qsap_dcfd
 vendor/bin/qtigetprop
 vendor/bin/qtisetprop
