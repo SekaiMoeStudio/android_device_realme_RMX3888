@@ -81,6 +81,9 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('android.hardware.secure_element-V1-ndk.so', 'android.hardware.secure_element-V1-ndk_odm.so'),
     'odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff': blob_fixup()
         .add_needed('libshims_aidl_fingerprint_v3.oplus.so'),
+    'odm/bin/hw/vendor-oplus-hardware-performance-V1-service': blob_fixup()
+        .add_needed('libbase_shim.so')
+        .add_needed('libprocessgroup_shim.so'),
     'odm/lib64/libAlgoProcess.so': blob_fixup()
         .replace_needed('android.hardware.graphics.common-V3-ndk.so', 'android.hardware.graphics.common-V6-ndk.so')
         .remove_needed('android.hardware.graphics.common-V4-ndk.so'),
