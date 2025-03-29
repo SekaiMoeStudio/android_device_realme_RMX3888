@@ -104,8 +104,6 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('camera.device@3.3-impl.so', 'camera.device@3.3-impl_odm.so'),
     ('odm/lib64/vendor.oplus.hardware.virtual_device.camera.manager@1.0-impl.so', 'vendor/lib64/libcwb_qcom_aidl.so'): blob_fixup()
         .add_needed('libui_shim.so'),
-    'product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml': blob_fixup()
-        .regex_replace('/my_product', '/product'),
     'system_ext/lib64/libwfdnative.so': blob_fixup()
         .replace_needed('android.hidl.base@1.0.so', 'libhidlbase.so'),
     'system_ext/lib64/libwfdservice.so': blob_fixup()
