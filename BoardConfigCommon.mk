@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+
+BUILD_BROKEN_DUP_RULES := true
+
 COMMON_PATH := device/oneplus/sm8650-common
 
 # A/B
