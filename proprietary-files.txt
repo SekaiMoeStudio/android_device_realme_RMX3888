@@ -2008,6 +2008,12 @@ vendor/lib64/libhdcp2p2prov.so
 vendor/lib64/libhdcpsrm.so
 vendor/lib64/libmm-hdcpmgr.so
 
+# Hotword Enrollment from OnePlus 12 CPH2581_15.0.0.503(EX01)
+my_product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml:product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml|52b6a326e59e543daac9b8d6e960654095c0fb6b
+my_product/framework/com.android.hotwordenrollment.common.util.jar:product/framework/com.android.hotwordenrollment.common.util.jar|2f9d61fcdbc33058e8a514b4b5a559d314bbabaf
+my_product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk:product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk|e37e5c51144d700b37627c907541b2d8b23e085a
+my_product/priv-app/HotwordEnrollmentYGoogleHEXAGON_WIDEBAND.apk:product/priv-app/HotwordEnrollmentYGoogleHEXAGON_WIDEBAND.apk|eb9b3c74fd190c2326a341e315461634b3d83490
+
 # IMS
 system_ext/app/ImsDataChannelService/ImsDataChannelService.apk
 system_ext/app/ImsRcsService/ImsRcsService.apk
