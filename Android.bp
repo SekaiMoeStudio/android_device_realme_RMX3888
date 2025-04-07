@@ -26,3 +26,13 @@ install_symlink {
     installed_location: "firmware/wlan/qca_cld/kiwi_v2/WCNSS_qcom_cfg.ini",
     symlink_target: "/odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini",
 }
+
+prebuilt_hidl_interfaces {
+	name: "hidl_limits_interfaces",
+    interfaces: [
+        "vendor.qti.hardware.limits@1.0::ILimits",
+        "vendor.qti.hardware.limits@1.1::ILimits",
+        "vendor.qti.hardware.limits@1.2::ILimits",
+		"vendor.oplus.hardware.virtual_device.camera.manager@1.0::IVirtualCameraManager"
+    ],
+}
