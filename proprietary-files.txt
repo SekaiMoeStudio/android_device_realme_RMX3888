@@ -1532,7 +1532,6 @@ vendor/etc/ssg/tz_whitelist.json
 # Context Hub
 vendor/bin/hw/android.hardware.contexthub-service.qmi
 vendor/etc/chre/preloaded_nanoapps.json
-vendor/etc/init/android.hardware.contexthub-service.qmi.rc
 
 # Data
 vendor/bin/ATFWD-daemon
