@@ -94,6 +94,8 @@ PRODUCT_PACKAGES += \
     android.hardware.boot-service.qti \
     android.hardware.boot-service.qti.recovery
 
+$(call soong_config_set,libcameraservice,ext_lib,//$(LOCAL_PATH):libcameraservice_extension.oplus)
+
 # Camera
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.concurrent.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.concurrent.xml \
