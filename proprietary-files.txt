@@ -187,6 +187,8 @@ vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0.so
 vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so
 vendor/lib64/vendor.qti.voiceprint@1.0.so
+vendor/etc/bluetooth_qti_hearing_aid_audio_policy_configuration.xml
+vendor/etc/r_submix_audio_policy_configuration.xml
 
 # Audio ASR
 vendor/etc/ASR_binary/Whisper/libSnpeHtpV75Skel.so
