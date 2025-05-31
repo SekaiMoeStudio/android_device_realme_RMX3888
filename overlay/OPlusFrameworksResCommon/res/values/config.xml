@@ -85,6 +85,12 @@
     <!-- Type of the udfps long press sensor. Empty if long press is not supported. -->
     <string name="config_dozeUdfpsLongPressSensorType" translatable="false">org.lineageos.sensor.udfps</string>
 
+    <!-- Type of the double tap sensor. Empty if double tap is not supported. -->
+     <string name="config_dozeDoubleTapSensorType" translatable="false">org.lineageos.sensor.double_tap</string>
+ 
+     <!-- Type of the tap sensor. Empty if tap is not supported. -->
+     <string name="config_dozeTapSensorType" translatable="false">org.lineageos.sensor.tap</string>
+
     <!-- Flag specifying whether WFC over IMS should be available for carrier: independent of
          carrier provisioning. If false: hard disabled. If true: then depends on carrier
          provisioning, availability etc -->
@@ -140,9 +146,9 @@
     <bool name="config_telephony5gNonStandalone">true</bool>
 
     <!-- Whether device has VOOC charging support -->
-    <bool name="config_hasVoocCharger">true</bool>
-
-     <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
-    <string name="config_oemFastChargerStatusPath" translatable="false">"/sys/class/oplus_chg/battery/fast_charge"</string>
+     <bool name="config_hasVoocCharger">true</bool>
+ 
+      <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
+     <string name="config_oemFastChargerStatusPath" translatable="false">"/sys/class/oplus_chg/battery/fast_charge"</string>
 
 </resources>

@@ -12,13 +12,13 @@
 
     <!-- Paths to the libraries that contain device specific key handlers -->
     <string-array name="config_deviceKeyHandlerLibs" translatable="false">
-        <item>/system_ext/priv-app/DeviceSettings/DeviceSettings.apk</item>
+        <item>/system_ext/app/KeyHandler/KeyHandler.apk</item>
         <item>/system_ext/priv-app/LineageParts/LineageParts.apk</item>
     </string-array>
 
     <!-- Names of the key handler classes -->
     <string-array name="config_deviceKeyHandlerClasses" translatable="false">
-        <item>org.lineageos.device.DeviceSettings.KeyHandler</item>
+        <item>org.lineageos.settings.device.KeyHandler</item>
         <item>org.lineageos.lineageparts.gestures.KeyHandler</item>
     </string-array>
 
@@ -32,4 +32,7 @@
         <item>restart_bootloader</item>
         <item>restart_fastboot</item>
     </string-array>
+
+    <!-- Whether the device supports wireless charging or not -->
+    <bool name="config_deviceSupportsWirelessCharging">true</bool>
 </resources>

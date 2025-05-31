@@ -2515,7 +2515,7 @@
         <boolean name="vendor_hide_volte_settng_ui" value="true" />
         <boolean name="carrier_use_ims_first_for_emergency_bool" value="true" />
         <int name="ims.wifi_off_deferring_time_millis_int" value="4000" />
-        <string name="carrier_ims_user_agent">OnePlus---[P]---[V]</string>
+        <string name="carrier_ims_user_agent">RealMe---[P]---[V]</string>
         <boolean name="call_barring_visibility_bool" value="false" />
         <boolean name="vendor_hide_call_forward_ui" value="true" />
         <boolean name="vendor_hide_additional_settings_ui" value="true" />
@@ -2547,7 +2547,7 @@
         <boolean name="vendor_hide_additional_settings_ui" value="true" />
         <string-array name="read_only_apn_types_string_array" num="0" />
         <boolean name="allow_adding_apns_bool" value="false" />
-        <string name="carrier_ims_user_agent">OnePlus---[P]---[V]</string>
+        <string name="carrier_ims_user_agent">RealMe---[P]---[V]</string>
         <string-array name="carrier_metered_apn_types_strings" num="4">
             <item value="default" />
             <item value="dun" />
@@ -2568,7 +2568,7 @@
         <boolean name="carrier_use_ims_first_for_emergency_bool" value="true" />
         <boolean name="support_emergency_sms_over_ims_bool" value="true" />
         <int name="ims.wifi_off_deferring_time_millis_int" value="4000" />
-        <string name="carrier_ims_user_agent">OnePlus---[P]---[V]</string>
+        <string name="carrier_ims_user_agent">RealMe---[P]---[V]</string>
         <boolean name="call_barring_visibility_bool" value="false" />
         <boolean name="vendor_hide_call_forward_ui" value="true" />:qandadiv <boolean name="vendor_hide_additional_settings_ui" value="true" />
         <string-array name="read_only_apn_types_string_array" num="0" />
@@ -2596,7 +2596,7 @@
         <boolean name="call_barring_visibility_bool" value="false" />
         <boolean name="vendor_hide_call_forward_ui" value="true" />
         <boolean name="vendor_hide_additional_settings_ui" value="true" />
-        <string name="carrier_ims_user_agent">OnePlus---[P]---[V]</string>
+        <string name="carrier_ims_user_agent">RealMe---[P]---[V]</string>
         <string-array name="read_only_apn_types_string_array" num="0" />
         <boolean name="allow_adding_apns_bool" value="false" />
         <string-array name="carrier_metered_apn_types_strings" num="4">
@@ -6655,7 +6655,7 @@
             <item value="supl" />
             <item value="fota" />
         </string-array>
-        <string name="carrier_ims_user_agent">OnePlus---[P]---[V]</string>
+        <string name="carrier_ims_user_agent">RealMe---[P]---[V]</string>
         <boolean name="config_oplus_show_5g_pref" value="true" />
     </carrier_config>
     <carrier_config gid1="BAE1000000000000" operator="Visible">
