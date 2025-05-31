@@ -12,6 +12,10 @@
     "target_path": "kernel/realme/sm8650-common"
   },
   {
+    "repository": "android_kernel_realme_sm8650-prebuilt",
+    "target_path": "device/realme/RMX3888-kernel"
+  },
+  {
     "repository": "android_kernel_realme_sm8650-devicetrees",
     "target_path": "kernel/realme/sm8650-devicetrees"
   },
