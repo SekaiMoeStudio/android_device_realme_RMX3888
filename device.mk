@@ -352,8 +352,7 @@ PRODUCT_PACKAGES += \
 
 # QSPA
 PRODUCT_PACKAGES += \
-    vendor.qti.qspa-service \
-    libtensorflowlite_jni
+    vendor.qti.qspa-service
 
 # Sensors
 PRODUCT_PACKAGES += \
