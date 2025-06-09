@@ -67,7 +67,7 @@ sh_binary {
 
 sh_binary {
     name: "init.kernel.post_boot-pineapple.sh",
-    src: "init.kernel.post_boot-pineapple_.sh",
+    src: "init.kernel.post_boot-pineapple.sh",
     vendor: true,
 }
 
