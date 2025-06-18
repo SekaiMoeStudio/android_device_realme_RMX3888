@@ -91,6 +91,10 @@ function lib_to_package_fixup() {
         lib_to_package_fixup_vendor_variants "$@"
 }
 
+if [ -z "${SECTION}" ]; then
+    append_firmware_calls_to_makefiles "${MY_DIR}/proprietary-firmware.txt"
+fi
+
 # Initialize the helper for common
 setup_vendor "${DEVICE_COMMON}" "${VENDOR_COMMON:-$VENDOR}" "${ANDROID_ROOT}" true
 
