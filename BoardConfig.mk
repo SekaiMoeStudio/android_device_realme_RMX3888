@@ -114,7 +114,6 @@ DEVICE_MANIFEST_FILE := \
     hardware/qcom-caf/sm8650/audio/primary-hal/configs/common/manifest_non_qmaa_extn.xml
 
 ODM_MANIFEST_FILES := \
-    $(DEVICE_PATH)/configs/manifest/manifest_odm.xml \
     $(DEVICE_PATH)/configs/manifest/network_manifest_odm.xml \
     $(DEVICE_PATH)/configs/manifest/nfc_manifest_odm.xml
 
