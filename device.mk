@@ -467,9 +467,9 @@ PRODUCT_PACKAGES += \
     android.hardware.vibrator.service.oplus-richtap
 
 # Vibrator
+$(call soong_config_set,OPLUS_LINEAGE_VIBRATOR_HAL,INCLUDE_DIR,$(LOCAL_PATH)/vibrator/include)
+
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/vibrator/effect_0.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/9999/def/effect_0.bin \
-    $(LOCAL_PATH)/vibrator/effect_1.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/9999/def/effect_1.bin \
     vendor/qcom/opensource/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
 
 # WiFi
