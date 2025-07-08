@@ -1,1 +1,1 @@
-require board=RMX3888
+require board=pineapple|RMX3888|RealmeGT5Pro
