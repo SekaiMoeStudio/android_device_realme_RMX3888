@@ -2263,7 +2263,6 @@ vendor/etc/media_codecs_performance_pineapple_vendor.xml
 vendor/etc/media_codecs_pineapple.xml
 vendor/etc/media_codecs_pineapple_vendor.xml
 vendor/etc/media_pineapple/video_system_specs.json
-vendor/etc/media_profiles.xml
 vendor/etc/media_profiles_V1_0.xml
 vendor/etc/media_profiles_cliffs_v0.xml
 vendor/etc/media_profiles_cliffs_v1.xml
