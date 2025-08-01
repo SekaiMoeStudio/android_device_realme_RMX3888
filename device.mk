@@ -26,6 +26,9 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display/display_id_4630946450791512195.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946450791512195.xml
 
+# Fingerprint
+$(call soong_config_set,surfaceflinger,udfps_lib,//device/realme/RMX3888:libudfps_extension.RMX3888)
+
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/realme/RMX3888/RMX3888-vendor.mk)
 

@@ -94,9 +94,6 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/props/vendor.prop
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/props/config.fs
 
-# Fingerprint
-TARGET_SURFACEFLINGER_UDFPS_LIB := //device/realme/RMX3888:libudfps_extension.RMX3888
-
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     hardware/oplus/vintf/device_framework_matrix.xml \
