@@ -92,7 +92,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.audio-adsprpc-service.rc
 
 AUDIO_HAL_DIR := hardware/qcom-caf/sm8650/audio/primary-hal
-AUDIO_PAL_DIR := hardware/qcom-caf/sm8650/audio/pal
+CONFIG_HAL_SRC_DIR := $(AUDIO_HAL_DIR)/configs/pineapple
+CONFIG_PAL_SRC_DIR := $(AUDIO_HAL_DIR)/../pal/configs/pineapple
 
 PRODUCT_COPY_FILES += \
     $(AUDIO_HAL_DIR)/configs/common/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
