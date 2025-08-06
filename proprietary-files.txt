@@ -1717,10 +1717,13 @@ vendor/lib64/libhdrdynamicootf.so
 vendor/lib64/libhdrvivid.so
 
 # Display (HWC)
-vendor/bin/hw/vendor.qti.hardware.display.composer-service;DISABLE_DEPS
 vendor/bin/qdcmss
 vendor/etc/init/qdcmss.rc
 vendor/etc/snapdragon_color_libs_config.xml
+vendor/lib64/android.hardware.graphics.composer3-V2-ndk.so
+vendor/lib64/android.hardware.graphics.composer@2.1.so
+vendor/lib64/android.hardware.graphics.composer@2.2.so
+vendor/lib64/android.hardware.graphics.composer@2.3.so
 vendor/lib64/libdisplayconfig.qti.so
 vendor/lib64/libdpp_manager.so
 vendor/lib64/libdpps.so
@@ -1737,6 +1740,8 @@ vendor/lib64/libsdmutils.so
 vendor/lib64/libsnapdragoncolor-manager.so
 vendor/lib64/libsnapdragoncolor-qdcm.so
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
+vendor/lib64/vendor.qti.hardware.display.composer@1.0.so
+vendor/lib64/vendor.qti.hardware.display.composer@2.0.so
 
 # Display (Pixelworks)
 vendor/lib/libpwirisfeature.so
