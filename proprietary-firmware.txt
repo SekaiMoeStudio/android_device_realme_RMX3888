@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from Realme GT 5 Pro (RMX3888_15.0.0.232(EX01)).
+## are from Realme GT 5 Pro (RMX3888_15.0.0.841(CN01)).
 
 abl.img;AB
 aop.img;AB
