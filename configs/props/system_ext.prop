@@ -22,6 +22,9 @@ persist.vendor.dpm.feature=11
 # GPS
 persist.backup.ntpServer=0.pool.ntp.org
 
+# Horae
+persist.sys.horae.enable=1
+
 # IFAA
 sys.oplus.ifaa.model=REALME-R23607
 
