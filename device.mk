@@ -14,8 +14,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 3216
-TARGET_SCREEN_WIDTH := 1440
+TARGET_SCREEN_HEIGHT := 2780
+TARGET_SCREEN_WIDTH := 1264
 
 # Display
 PRODUCT_COPY_FILES += \
@@ -35,14 +35,6 @@ PRODUCT_PACKAGES += \
 # PowerShare
 PRODUCT_PACKAGES += \
     vendor.lineage.powershare-service.oplus
-
-# Regional properties
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/22825/build.default.prop:$(TARGET_COPY_OUT_ODM)/etc/22825/build.default.prop \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/22877/build.EU.prop:$(TARGET_COPY_OUT_ODM)/etc/22877/build.EU.prop \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/22877/build.IN.prop:$(TARGET_COPY_OUT_ODM)/etc/22877/build.IN.prop \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/22877/build.NA.prop:$(TARGET_COPY_OUT_ODM)/etc/22877/build.NA.prop \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/22877/build.default.prop:$(TARGET_COPY_OUT_ODM)/etc/22877/build.default.prop
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
@@ -64,4 +56,4 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, device/oneplus/sm8650-common/common.mk)
 
 # Inherit from the proprietary files makefile.
-$(call inherit-product, vendor/oneplus/waffle/waffle-vendor.mk)
+$(call inherit-product, vendor/realme/RMX3888/RMX3888-vendor.mk)

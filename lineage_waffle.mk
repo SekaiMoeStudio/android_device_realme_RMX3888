@@ -8,24 +8,24 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from waffle device
-$(call inherit-product, device/oneplus/waffle/device.mk)
+# Inherit from RMX3888 device
+$(call inherit-product, device/realme/RMX3888/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_waffle
-PRODUCT_DEVICE := waffle
-PRODUCT_MANUFACTURER := OnePlus
-PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := CPH2581
+PRODUCT_NAME := lineage_RMX3888
+PRODUCT_DEVICE := RMX3888
+PRODUCT_MANUFACTURER := realme
+PRODUCT_BRAND := realme
+PRODUCT_MODEL := RMX3888
 
-PRODUCT_GMS_CLIENTID_BASE := android-oneplus
+PRODUCT_GMS_CLIENTID_BASE := android-realme
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="qssi_64-user 15 AP3A.240617.008 1754899593570 release-keys" \
-    BuildFingerprint=OnePlus/CPH2581EEA/OP595DL1:15/AP3A.240617.008/U.R4T3.1ae84e1_4416c1_42b995:user/release-keys \
-    DeviceName=OP595DL1 \
-    DeviceProduct=CPH2581 \
-    SystemDevice=OP595DL1 \
-    SystemName=CPH2581
+    BuildFingerprint=realme/RMX3888/RE5C37:15/UKQ1.231108.001/U.1e03f69-14bff-45521:user/release-keys \
+    DeviceName=RE5C37 \
+    DeviceProduct=RMX3888 \
+    SystemDevice=RE5C37 \
+    SystemName=RMX3888
